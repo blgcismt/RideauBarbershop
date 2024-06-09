@@ -1,0 +1,52 @@
+.photo-section {
+    background: url('images/MainPage.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+.photo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.img-fluid {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.img-thumbnail {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.modal-header img {
+    margin-right: 15px;
+}
+
+footer {
+    margin-top: auto;
+}

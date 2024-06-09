@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Rideau Barbershop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="services.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container-fluid justify-content-around">
+            <a class="navbar-brand" href="#">
+                <img src="images/BarberPoleBlackAndWhite.png" alt="Logo" class="logo">
+                Rideau Barbershop
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="our_professionals.html">Our Professionals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="services.html">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="navbar-text">
+                            123 345-6578
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-fill">
+      <!-- Photo Section-->
+        <div class="photo-section">
+            <div class="photo-text">
+                <h1>Our Services</h1>
+            </div>
+        </div>
+
+        <!-- Service Cards-->
+        <div class="container mt-5">
+            <div class="row text-center">
+                <div class="col-md-3 mb-4">
+                    <div class="service-card">
+                        <img src="images/scissors.png" alt="Service Logo" class="img-fluid">
+                        <h3>Classic Cut</h3>
+                        <p>Experience timeless style with our Classic Cut, designed to cater to all hair types. This service includes a soothing shampoo, precision cut, and styling for a polished look.</p>
+                        <p class="price">$25</p>
+                        <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#bookingDialog" data-service="Classic Cut">Book</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="service-card">
+                        <img src="images/graduation.png" alt="Service Logo" class="img-fluid">
+                        <h3>Student Cut</h3>
+                        <p>Stay sharp with our Student Cut, tailored for young and trendy individuals. Includes a refreshing shampoo, precision cut, and styling, all at a budget-friendly price for students.</p>
+                        <p class="price">$25</p>
+                        <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#bookingDialog" data-service="Student Cut">Book</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="service-card">
+                        <img src="images/shaving-machine.png" alt="Service Logo" class="img-fluid">
+                        <h3>Buzz Cut</h3>
+                        <p>Opt for a bold, low-maintenance style with our Buzz Cut. Achieve even, sharp results perfect for anyone seeking a clean, classic look with minimal fuss.</p>
+                        <p class="price">$25</p>
+                        <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#bookingDialog" data-service="Buzz Cut">Book</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="service-card">
+                        <img src="images/serum.png" alt="Service Logo" class="img-fluid">
+                        <h3>Hair Treatment</h3>
+                        <p>Revitalize your hair with our premium Hair Treatment. Designed to nourish and strengthen, this service leaves your hair looking healthier, shinier, and more manageable.</p>
+                        <p class="price">$25</p>
+                        <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#bookingDialog" data-service="Hair Treatment">Book</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="service-card">
+                        <img src="images/face.png" alt="Service Logo" class="img-fluid">
+                        <h3>Face Shave</h3>
+                        <p>Enjoy a smooth, clean finish with our Face Shave. This service includes a hot towel treatment, precise shave, and soothing aftercare to leave your skin feeling refreshed.</p>
+                        <p class="price">$25</p>
+                        <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#bookingDialog" data-service="Face Shave">Book</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="service-card">
+                        <img src="images/beard.png" alt="Service Logo" class="img-fluid">
+                        <h3>Beard Trim</h3>
+                        <p>Maintain a sharp, well-groomed look with our Beard Trim. Includes a thorough shaping and trimming, tailored to enhance your facial features and personal style.</p>
+                        <p class="price">$25</p>
+                        <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#bookingDialog" data-service="Beard Trim">Book</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="service-card">
+                        <img src="images/oil.png" alt="Service Logo" class="img-fluid">
+                        <h3>Beard Treatment</h3>
+                        <p>Revitalize your beard with our Beard Treatment. This service includes a deep cleanse, conditioning, and expert grooming to keep your beard healthy, soft, and manageable.</p>
+                        <p class="price">$25</p>
+                        <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#bookingDialog" data-service="Beard Treatment">Book</button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="service-card">
+                        <img src="images/mustache.png" alt="Service Logo" class="img-fluid">
+                        <h3>Goatee Trim</h3>
+                        <p>Keep your goatee looking sharp with our Goatee Trim. This service offers precise trimming and shaping to ensure a clean and defined look that suits your style.</p>
+                        <p class="price">$25</p>
+                        <button class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#bookingDialog" data-service="Goatee Trim">Book</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Booking Dialog-->
+        <div class="modal fade" id="bookingDialog" tabindex="-1" aria-labelledby="bookingDialogLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img id="serviceLogo" src="" alt="Service Logo" class="img-thumbnail" style="width: 50px;">
+                        <h5 class="modal-title" id="bookingDialogLabel">Book Your Appointment - <span id="serviceName"></span></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="recommendedBarber" class="alert alert-info" role="alert">
+                            Recommended Barber: <span id="recommendedBarberName"></span>
+                        </div>
+                        <ul class="nav nav-tabs" id="bookingTypeTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="single-booking-tab" data-bs-toggle="tab" data-bs-target="#singleBookingTab" type="button" role="tab" aria-controls="singleBooking" aria-selected="true">Single Booking</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="repeating-booking-tab" data-bs-toggle="tab" data-bs-target="#repeatingBookingTab" type="button" role="tab" aria-controls="repeatingBooking" aria-selected="false">Repeating Booking</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="bookingTabContent">
+                            <div class="tab-pane fade show active" id="singleBookingTab" role="tabpanel" aria-labelledby="single-booking-tab">
+                                <form id="singleBookingForm">
+                                    <div class="mb-3">
+                                        <label for="customerName" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="customerName" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="customerEmail" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" id="customerEmail" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Select Barber:</label>
+                                        <div class="d-flex flex-wrap">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="barberSelection" id="barber1" value="Barber1">
+                                                <label class="form-check-label" for="barber1">
+                                                    <img src="images/barber1.jpg" alt="Barber 1" class="img-thumbnail" style="width: 50px;">
+                                                    Baslie Edgar
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="barberSelection" id="barber2" value="Barber2">
+                                                <label class="form-check-label" for="barber2">
+                                                    <img src="images/barber2.jpg" alt="Barber 2" class="img-thumbnail" style="width: 50px;">
+                                                    Jie Yang
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="barberSelection" id="barber3" value="Barber3">
+                                                <label class="form-check-label" for="barber3">
+                                                    <img src="images/barber3.jpg" alt="Barber 3" class="img-thumbnail" style="width: 50px;">
+                                                    Fehim Beste
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="barberSelection" id="barber4" value="Barber4">
+                                                <label class="form-check-label" for="barber4">
+                                                    <img src="images/barber4.jpg" alt="Barber 4" class="img-thumbnail" style="width: 50px;">
+                                                    Brent Cat
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="appointmentDate" class="form-label">Date</label>
+                                        <input type="date" class="form-control" id="appointmentDate" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="appointmentTime" class="form-label">Time</label>
+                                        <input type="time" class="form-control" id="appointmentTime" required>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="virtualSession">
+                                        <label class="form-check-label" for="virtualSession">Add a virtual pre-session consultation</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary" form="singleBookingForm">Confirm Single Booking</button>
+                                </form>
+                            </div>
+                            <div class="tab-pane fade" id="repeatingBookingTab" role="tabpanel" aria-labelledby="repeating-booking-tab">
+                                <form id="repeatingBookingForm">
+                                    <div class="mb-3">
+                                        <label for="customerNameRepeat" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="customerNameRepeat" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="customerEmailRepeat" class="form-label">Email Address</label>
+                                        <input type="email" class="form-control" id="customerEmailRepeat" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">Select Barber:</label>
+                                        <div class="d-flex flex-wrap">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="barberSelectionRepeat" id="barber1Repeat" value="Barber1">
+                                                <label class="form-check-label" for="barber1Repeat">
+                                                    <img src="images/barber1.jpg" alt="Barber 1" class="img-thumbnail" style="width: 50px;">
+                                                    Baslie Edgar
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="barberSelectionRepeat" id="barber2Repeat" value="Barber2">
+                                                <label class="form-check-label" for="barber2Repeat">
+                                                    <img src="images/barber2.jpg" alt="Barber 2" class="img-thumbnail" style="width: 50px;">
+                                                    Jie Yang
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="barberSelectionRepeat" id="barber3Repeat" value="Barber3">
+                                                <label class="form-check-label" for="barber3Repeat">
+                                                    <img src="images/barber3.jpg" alt="Barber 3" class="img-thumbnail" style="width: 50px;">
+                                                    Fehim Beste
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="barberSelectionRepeat" id="barber4Repeat" value="Barber4">
+                                                <label class="form-check-label" for="barber4Repeat">
+                                                    <img src="images/barber4.jpg" alt="Barber 4" class="img-thumbnail" style="width: 50px;">
+                                                    Brent Cat
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="startDate" class="form-label">Start Date</label>
+                                        <input type="date" class="form-control" id="startDate" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="endDate" class="form-label">End Date</label>
+                                        <input type="date" class="form-control" id="endDate" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="appointmentTimeRepeat" class="form-label">Time</label>
+                                        <input type="time" class="form-control" id="appointmentTimeRepeat" required>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="virtualSessionRepeat">
+                                        <label class="form-check-label" for="virtualSessionRepeat">Add a virtual pre-session consultation</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary" form="repeatingBookingForm">Confirm Repeating Booking</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Confirmation Dialog-->
+        <div class="modal fade" id="confirmationDialog" tabindex="-1" aria-labelledby="confirmationDialogLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="confirmationDialogLabel">Booking Confirmation</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Hello <span id="confirmName"></span>,</p>
+                        <p>This is to confirm your reservation with <span id="confirmBarber"></span> for the following service:</p>
+                        <p>Service: <span id="confirmService"></span></p>
+                        <p>Date: <span id="confirmDate"></span></p>
+                        <p>Time: <span id="confirmTime"></span></p>
+                        <p>An email confirmation has been sent to <span id="confirmEmail"></span>.</p>
+                        <p>If you have any questions or need to make changes to your reservation, please don't hesitate to contact us.</p>
+                        <p>Thank you for choosing us! We look forward to seeing you soon.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- Footer-->
+    <footer class="bg-black text-white">
+        <div class="container-fluid justify-content-around">
+            <div class="row align-items-center text-center">
+                <div class="col-md-4">
+                    <img src="images/BarberPoleBlackAndWhite.png" alt="Rideau Barbershop Logo" class="logoFooter">
+                    Rideau Barbershop
+                </div>
+                <div class="col-md-4">
+                    <img src="images/location.jpg" alt="Location Icon" class="iconFooter">
+                    50 Rideau St, Ottawa, Ontario, K1N 9J7
+                </div>
+                <div class="col-md-4">
+                    <img src="images/clock.jpg" alt="Clock Icon" class="iconFooter">
+                    Hours:<br>Weekdays: 10AM to 8PM<br>Weekends: 12PM to 6PM
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+
+  </html>
